@@ -1,6 +1,5 @@
 import requests
 
-
 def hello():
     c = requests.get('https://api.github.com/repos/insper/dev-aberto/commits')
     info = c.json()
